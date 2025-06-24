@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Documentação do Software</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+   body {
+    padding-top: 50px;
+    background-color: #f8f9fa;
+  }
+  .container {
+    max-width: 960px;
+  }
+  h1, h2 {
+    margin-top: 30px;
+    color: #0d6efd;
+  }
+  .list-group-item a {
+    text-decoration: none;
+  }
+  footer {
+    margin-top: 60px;
+    text-align: center;
+    font-size: 0.9rem;
+    color: #6c757d;
+  }
+
+  /* Adicione aqui Incremento*/
+  p, li {
+    text-align: justify;
+  }
+  </style>
+</head>
+<body>
+
+ <header class="text-center mb-4">
+    <img src="leao.png" alt="Logo do Projeto" class="img-fluid" style="max-height: 120px;">
+
+   
+  </header>
+
+  <div class="container bg-white p-4 rounded shadow">
+    <h1 class="text-center">Documentação de Software - App Registro de Pacientes</h1>
+    <nav class="my-4">
+  <h5>Sumário</h5>
+  <ul class="list-group">
+    <li class="list-group-item"><a href="#introducao">1. Introdução</a></li>
+    <li class="list-group-item"><a href="#visao">2. Visão Geral do Software</a></li>
+    <li class="list-group-item"><a href="#funcionalidades">3. Funcionalidades Principais</a></li>
+    <li class="list-group-item"><a href="#publico">4. Público-Alvo da Documentação</a></li>
+    <li class="list-group-item"><a href="#tecnologias">5. Tecnologias Utilizadas</a></li>
+    <li class="list-group-item"><a href="#requisitos">6. Requisitos de Sistema</a></li>
+    <li class="list-group-item"><a href="#desenvolvimento">7. Desenvolvimento</a></li>
+    <li class="list-group-item"><a href="#api">8. API e Integrações</a></li>
+    <li class="list-group-item"><a href="#usuario">9. Guia do Usuário</a></li>
+    <li class="list-group-item"><a href="#admin">10. Guia de Administração</a></li>
+    <li class="list-group-item"><a href="#seguranca">11. Segurança</a></li>
+    <li class="list-group-item"><a href="#lgpd">12. LGPD</a></li>
+    <li class="list-group-item"><a href="#contato">13. Contato e Suporte</a></li>
+  </ul>
+</nav>
+
+    <section>
+      <h2 id="introducao">1. Introdução</h2>
+      <p>O software de registro de pacientes oncológicos pediátricos é uma ferramenta desenvolvida para auxiliar profissionais de saúde no atendimento e acompanhamento de pacientes. Ele permite o registro de informações relevantes sobre os pacientes, como dados demográficos, histórico médico, data do encaminhamento de tratamento, data de início do tratamento, estadiamento, data de óbito, entre outros. Além disso, ele permite uma visão mais atraente e menos poluída aos registradores e demais profissionais que venham a utilizá-lo.</p>
+    </section>
+
+    <section>
+      <h2 id="visao">1. Visão Geral do Software</h2>
+      <p>O nosso inovador software de registro de pacientes é uma aplicação web moderna, desenvolvida com a poderosa tecnologia Flutter. Esta plataforma se integra perfeitamente com a API do RedCap, garantindo que os dados dos pacientes sejam acessados e armazenados com a máxima segurança em um banco de dados robusto. A interface de usuário, também criada em Flutter, foi projetada com o objetivo de proporcionar uma experiência intuitiva e eficiente para os profissionais de saúde. Com ela, médicos e enfermeiros e registradores podem acessar e atualizar as informações dos pacientes de maneira rápida e fácil, melhorando significativamente o fluxo de trabalho e a qualidade do atendimento.</p>
+    </section>
+
+    <section>
+      <h2 id="funcionalidades">3. Funcionalidades Principais</h2>
+      <ul class="list-group">
+        <li class="list-group-item"> Registro de pacientes com informações detalhadas: Permite o registro de informações sobre os pacientes, como nome, idade, sexo, endereço, telefone, e-mail, histórico médico, tratamentos realizados e resultados de exames.</li>
+        <li class="list-group-item">Envio de lembretes: 
+Envia lembretes automáticos para os profissionais sobre seus pacientes. Para atualizar e acompanhar os casos registrados.</li>
+        <li class="list-group-item">Acesso seguro: Garante o acesso seguro às informações dos pacientes por meio de autenticação e autorização.</li>
+        <li class="list-group-item">Integração com RedCap</li>
+        <li class="list-group-item">Segurança de dados sensíveis</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2 id="publico">4. Público-Alvo da Documentação</h2>
+      <p>A documentação é destinada a profissionais de saúde que desejam utilizar o software de registro de pacientes em suas práticas clínicas. Ela fornece informações detalhadas sobre como utilizar o software, incluindo instruções de uso, guia de administração, desenvolvimento, APIs e integrações, segurança, licença e termos de uso, contato e suporte, histórico de versões, glossário e referências.</p>
+    </section>
+
+    <section>
+      <h2 id="tecnologias">5. Tecnologias Utilizadas</h2>
+      <ul>
+        <li><strong>• Flutter: </strong> Framework utilizado para desenvolver a interface de usuário da aplicação web.</li>
+        <li><strong>• RedCap: </strong> API utilizada para acessar e salvar os dados dos pacientes em um banco de dados seguro.
+    • RedCap:BD</li>
+        <li><strong>• API do RedCap para comunicação com o banco: </strong> API utilizada para acessar e salvar os dados dos pacientes em um banco de dados seguro.</li>
+        <li><strong>• Firebase: </strong> Firebase era uma empresa que desenvolvia software backend. Foi fundada em São Francisco em 2011 e incorporada em Delaware. Em 2014, o Firebase foi comprado pelo Google.</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2 id="requisitos">6. Requisitos de Sistema</h2>
+      <p>Compatibilidade com Android 8+ ou iOS 13+, conexão com a internet e acesso ao servidor RedCap. Navegador web moderno (Google Chrome, Mozilla Firefox, Safari, Microsoft Edge)
+Conexão com a internet</p>
+    </section>
+
+    <section>
+  <h2 id="desenvolvimento">7. Desenvolvimento</h2>
+
+  <h3>7.1. Metodologia Ágil</h3>
+  <p>O desenvolvimento do software seguiu práticas ágeis, como Scrum, com sprints regulares, reuniões de planejamento e entregas incrementais.</p>
+
+  <h3>7.2. Arquitetura do Projeto</h3>
+
+<section>
+  <h2 id="arquitetura">7.2.1 Arquitetura do Projeto</h2>
+
+  <p>O projeto segue um padrão arquitetural baseado em <strong>MVC (Model-View-Controller)</strong>, promovendo organização, separação de responsabilidades e facilidade na manutenção do código.</p>
+
+  <h4>📁 Estrutura de Pastas</h4>
+  <pre><code>lib/
+├── model/                # Modelos de dados (ex: usuário, paciente, entrevista)
+├── pagesapp/             # Telas da aplicação (interface do usuário)
+├── service/              # Serviços como Firebase, APIs externas e geração de PDF
+├── firebase_options.dart # Configuração do Firebase (gerado automaticamente)
+└── main.dart             # Ponto de entrada da aplicação
+  </code></pre>
+
+  <h4>🧩 Descrição das Camadas</h4>
+
+  <p><strong>📁 model/</strong><br>
+  Contém as <strong>classes de dados</strong> utilizadas no aplicativo. São representações das entidades que trafegam entre as camadas da aplicação. <br>
+  Exemplos: <code>UserModel</code>, <code>PacienteModel</code>, <code>EntrevistaModel</code>.</p>
+
+  <p><strong>📁 pagesapp/</strong><br>
+  Esta pasta corresponde à <strong>camada de View</strong>. Nela estão implementadas todas as <strong>telas do app</strong>, construídas com widgets Flutter.</p>
+
+  <p><strong>📁 service/</strong><br>
+  Responsável por implementar os <strong>serviços de backend</strong> e funcionalidades auxiliares, como:
+    <ul>
+      <li>Acesso ao Firebase (Auth e Firestore)</li>
+      <li>Comunicação com APIs REST externas</li>
+      <li>Geração de relatórios em PDF</li>
+    </ul>
+  </p>
+
+  <p><strong>📄 firebase_options.dart</strong><br>
+  Arquivo gerado automaticamente com as configurações do projeto Firebase. É utilizado na inicialização do Firebase no <code>main.dart</code>.</p>
+
+  <p><strong>📄 main.dart</strong><br>
+  Ponto de entrada da aplicação Flutter. Responsável por:
+    <ul>
+      <li>Inicializar o Firebase</li>
+      <li>Definir a tela inicial (home)</li>
+      <li>Configurar o tema global do app</li>
+    </ul>
+  </p>
+
+  <h4>🔄 Fluxo Arquitetural</h4>
+  <pre><code>Usuário → pagesapp/ (View)
+                ↓
+         service/ (Serviços)
+                ↓
+         model/ (Dados)
+  </code></pre>
+
+  <h4>🚀 Tecnologias Utilizadas</h4>
+  <table class="table table-bordered">
+    <thead>
+      <tr><th>Finalidade</th><th>Ferramentas / Bibliotecas</th></tr>
+    </thead>
+    <tbody>
+      <tr><td>Interface (UI)</td><td>Flutter SDK</td></tr>
+      <tr><td>Autenticação</td><td>Firebase Auth</td></tr>
+      <tr><td>Banco de Dados</td><td>Firebase Firestore</td></tr>
+      <tr><td>API REST</td><td>Pacote <code>http</code></td></tr>
+      <tr><td>Geração de PDF</td><td>Pacotes <code>pdf</code> e <code>printing</code></td></tr>
+      <tr><td>Modelos de Dados</td><td>Classes Dart no diretório <code>model/</code></td></tr>
+    </tbody>
+  </table>
+
+  <p><strong>✅ Benefícios:</strong> Separação clara entre interface, lógica e dados; maior legibilidade; facilidade de expansão e manutenção.</p>
+</section>
+
+
+<div class="text-center my-4">
+  <img src="estruturaCódigo.png" alt="Estrutura do Código" class="img-fluid" style="max-height: 500px;">
+</div>
+
+   
+  </header>
+
+ <h3>7.3. Dependências do Projeto</h3>
+<p>O software utiliza diversas bibliotecas e frameworks. Para adicionar as bibliotecas, acesse o arquivo <code>pubspec.yaml</code> na pasta do projeto, adicione as dependências necessárias e salve.</p>
+
+<div class="text-center my-4">
+  <img src="dependencias.png" alt="Dependências do Projeto" class="img-fluid" style="max-height: 500px;">
+</div>
+
+
+  <h3>7.4. Padrões de codificação: </h3>
+  <p>O código fonte do software segue os padrões de codificação recomendados pela comunidade de desenvolvedores.</p>
+
+  <h3>7.5. Flutter para Interface de Usuário: </h3>
+  <p>A interface do usuário (UI) do nosso aplicativo foi desenvolvida em Flutter, uma estrutura de desenvolvimento de aplicativos da Google. Flutter permite a criação de interfaces nativas para Android e iOS com uma única base de código, proporcionando uma experiência de usuário consistente e de alta performance.</p>
+
+  <h3>7.6. RedCap - Banco de Dados: 
+</h3>
+  <p>RedCap (Research Electronic Data Capture) é utilizado como nosso banco de dados principal. RedCap é uma plataforma segura e robusta, amplamente utilizada para gestão de dados de pesquisa e informações de pacientes. Ele oferece funcionalidades avançadas para armazenamento, gestão e análise de dados.</p>
+
+  <h3>7.7. Uso da API do RedCap: 
+</h3>
+  <p>A API do RedCap é utilizada para integrar diretamente o aplicativo ao banco de dados. Através desta API, é possível acessar, salvar e atualizar informações dos pacientes de forma segura. A API permite que o aplicativo comunique-se diretamente com o RedCap, garantindo que todas as operações sejam realizadas de maneira eficiente e com integridade dos dados.</p>
+</section>
+
+ <h3>7.7.1 Registro de Pacientes: 
+</h3>
+  <p>Adicione novos pacientes ao sistema com informações detalhadas e seguras.</p>
+</section>
+
+ <h3>7.7.2 Atualização de Informações:  
+</h3>
+  <p>Atualize dados dos pacientes de forma rápida e fácil diretamente pela interface do aplicativo.</p>
+</section>
+
+<h3>7.7.3 Consulta de dados:  
+</h3>
+  <p>Atualize dados dos pacientes de forma rápida e fácil diretamente pela interface do aplicativo.</p>
+</section>
+
+<h3>7.7.4 Atualização de Informações:  
+</h3>
+  <p>Acesse informações dos pacientes em tempo real, garantindo que todos os dados estejam sempre atualizados e disponíveis.</p>
+</section>
+
+<h3>7.7.5 Segurança de dados:  
+</h3>
+  <p>Todas as operações de acesso e atualização são realizadas de maneira segura, utilizando protocolos de segurança avançados.</p>
+</section>
+
+
+    <section>
+      <h2 id="api">8. API e Integrações</h2>
+      <ul>
+        <li>Descrição das APIs disponíveis: O software utiliza a API do RedCap para acessar e salvar os dados dos pacientes em um banco de dados seguro.</li>
+        <li>Autenticação e autorização: O software utiliza autenticação e autorização para garantir o acesso seguro às informações dos pacientes.</li>
+        <li>Exemplos de solicitações e respostas: O software utiliza diversos exemplos de solicitações e respostas para acessar e salvar os dados dos pacientes.</li>
+        <li>Integração com outros sistemas: O software pode ser integrado com outros sistemas, como sistemas de gestão de clínicas, sistemas de gestão de hospitais, entre outros.</li>
+      </ul>
+    </section>
+    
+     <section>
+      <h2 id="usuario">9. Guia do Usuário</h2>
+      <ul>
+        <li>    Acesso à aplicação web:
+Os profissionais de saúde podem acessar a aplicação web por meio de um navegador web moderno.</li>
+        <li>    Registro de pacientes: 
+Os profissionais de saúde podem registrar informações sobre os pacientes, como nome, idade, sexo, endereço, telefone, e-mail, histórico médico, diagnóstico, tratamentos realizados e resultados de exames.</li>
+        <li>    Agendamento de consultas: 
+Os profissionais de saúde podem agendar consultas com os pacientes, incluindo a data, hora e local da consulta.</li>
+        <li>    Acesso seguro: 
+Os profissionais de saúde podem acessar as informações dos pacientes de forma segura por meio de autenticação e autorização.</li>
+      </ul>
+    </section>
+    
+     <h2 id="admin">10. Guia de Administração</h2>
+      <ul>
+        <li>    Gerenciamento de usuários: Os administradores podem gerenciar os usuários do sistema, incluindo a criação, edição e exclusão de contas de usuário.</li>
+        <li>    Configurações de segurança: Os administradores podem configurar as medidas de segurança do sistema, incluindo a autenticação e autorização dos usuários.</li>
+       </ul>
+    </section>
+    
+     <h2 id="seguranca">11. Segurança</h2>
+      <ul>
+        <li>
+     Considerações de segurança: O software utiliza diversas medidas de segurança, como autenticação e autorização, criptografia de dados, auditoria de acesso, proteção contra ataques, gerenciamento de ciclo de vida de dados, treinamento e conscientização dos funcionários, revisão e melhoria contínua.</li>
+        <li> 
+     Política de privacidade: O software utiliza uma política de privacidade para garantir a proteção das informações dos pacientes.</li>
+        <li>    Agendamento de consultas: 
+Os profissionais de saúde podem agendar consultas com os pacientes, incluindo a data, hora e local da consulta.</li>
+        <li>
+     Vulnerabilidades conhecidas: O software utiliza uma lista de vulnerabilidades conhecidas para garantir a segurança do sistema.</li>
+    <li> Procedimentos de segurança: O software utiliza diversos procedimentos de segurança, como autenticação e autorização, criptografia de dados, auditoria de acesso, proteção contra ataques, gerenciamento de ciclo de vida de dados, treinamento e conscientização dos funcionários, revisão e melhoria contínua.</li>
+      </ul>
+    </section>
+
+    <section>
+     
+
+   
+
+    <section>
+      <h2 id="lgpd">12. LGPD</h2>
+      <p>Lei Geral de Proteção de Dados (LGPD): Este software está em conformidade com a Lei Geral de Proteção de Dados (Lei nº 13.709/2018), que regula o tratamento de dados pessoais no Brasil. A LGPD estabelece diretrizes para a coleta, armazenamento, processamento e compartilhamento de dados pessoais, garantindo a privacidade, a segurança e a transparência no tratamento dessas informações. Este software foi desenvolvido com o objetivo de proteger os dados pessoais dos usuários, garantindo o consentimento informado e transparente para o uso desses dados, bem como a possibilidade de acesso, correção e exclusão dessas informações conforme solicitado pelo usuário. Além disso, o software registra e rastreia todas as atividades relacionadas aos dados pessoais, garantindo a prestação de contas e a responsabilidade do controlador dos dados.</p>
+   
+    
+     <h2 id="contato">13. Contato e Suporte</h2>
+      <ul>
+        <li>
+      Informações de contato da equipe de suporte: O software utiliza diversas informações de contato da equipe de suporte, como o endereço de e-mail, o número de telefone, o endereço físico, o horário de atendimento, as perguntas frequentes (FAQ), os canais de comunicação para suporte.</li>
+        <li> 
+     Perguntas frequentes (FAQ): O software utiliza diversas perguntas frequentes (FAQ) para garantir o suporte aos usuários.</li>
+        <li>Canais de comunicação para suporte: O software utiliza diversos canais de comunicação para suporte, como o e-mail, o telefone, o chat online, o fórum de discussão, a comunidade de usuários.</li>
+       
+      </ul>
+
+    <section>
+    
+     <h2>14. Histórico de versões: </h2>
+      <ul>
+        <li>
+      Registro de alterações: O software utiliza um registro de alterações para garantir a rastreabilidade das mudanças no sistema.</li>
+        <li> 
+     Notas de lançamento: O software utiliza diversas notas de lançamento para garantir a transparência das atualizações do sistema.</li>
+        <li>Correções de bugs e melhorias: O software utiliza diversas correções de bugs e melhorias para garantir a qualidade do sistema.</li>
+               
+      </ul>
+
+    <section>
+      <h2>15. Glossário: </h2>
+      <ul>
+        <li>Definição de termos técnicos e específicos do software: O software utiliza um glossário para garantir a compreensão dos termos técnicos e específicos do sistema.</li>
+       
+      </ul>
+    </section>
+
+   
+    <section>
+      <h2>16. Links Úteis</h2>
+      <ul class="list-group">
+        <li class="list-group-item"><a href="https://www.inca.gov.br/" target="_blank">INCA</a></li>
+        <li class="list-group-item"><a href="https://redcapbrasil.com.br/" target="_blank">RedCap Brasil</a></li>
+        <li class="list-group-item"><a href="https://registroici-srsop" target="_blank">Registro ICI - SRSOP</a></li>
+        <li class="list-group-item"><a href="https://ici.ong/" target="_blank">Instituto do Câncer Infantil</a></li>
+        <li class="list-group-item"><a href="https://teleoncoped.streamlit.app/" target="_blank">Teleoncoped</a></li>
+        <li class="list-group-item"><a href="https://fosp.saude.sp.gov.br/" target="_blank">FOSP</a></li>
+      </ul>
+    </section>
+  </div>
+
+  <footer class="text-muted mt-5">
+    <p>© 2025 - Projeto de Documentação de Software</p>
+  </footer>
+
+</body>
+</html>
+
