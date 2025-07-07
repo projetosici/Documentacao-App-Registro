@@ -87,23 +87,23 @@ Envia lembretes automáticos para os profissionais sobre seus pacientes. Para at
       </ul>
     </section>
 
-    <section>
-      <h2 id="publico">4. Público-Alvo da Documentação</h2>
-      <p>A documentação é destinada a profissionais de saúde que desejam utilizar o software de registro de pacientes em suas práticas clínicas. Ela fornece informações detalhadas sobre como utilizar o software, incluindo instruções de uso, guia de administração, desenvolvimento, APIs e integrações, segurança, licença e termos de uso, contato e suporte, histórico de versões, glossário e referências.</p>
-    <p><a href="#sumario">↑ Voltar ao Sumário</a></p>
-    </section>
+   <section>
+  <h2 id="publico">4. Público-Alvo da Documentação</h2>
+  <p>A documentação é destinada a profissionais de saúde que desejam utilizar o software de registro de pacientes em suas práticas clínicas. Ela fornece informações detalhadas sobre como utilizar o software, incluindo instruções de uso, guia de administração, desenvolvimento, APIs e integrações, segurança, licença e termos de uso, contato e suporte, histórico de versões, glossário e referências.</p>
+  <p><a href="#sumario">↑ Voltar ao Sumário</a></p>
+</section>
 
-    <section>
-      <h2 id="tecnologias">5. Tecnologias Utilizadas</h2>
-      <p><a href="#sumario">↑ Voltar ao Sumário</a></p>
-      <ul>
-        <li><strong>• Flutter: </strong> Framework utilizado para desenvolver a interface de usuário da aplicação web.</li>
-        <li><strong>• RedCap: </strong> API utilizada para acessar e salvar os dados dos pacientes em um banco de dados seguro.
-    • RedCap:BD</li>
-        <li><strong>• API do RedCap para comunicação com o banco: </strong> API utilizada para acessar e salvar os dados dos pacientes em um banco de dados seguro.</li>
-        <li><strong>• Firebase: </strong> Firebase era uma empresa que desenvolvia software backend. Foi fundada em São Francisco em 2011 e incorporada em Delaware. Em 2014, o Firebase foi comprado pelo Google.</li>
-      </ul>
-    </section>
+<section>
+  <h2 id="tecnologias">5. Tecnologias Utilizadas</h2>
+  <p><a href="#sumario">↑ Voltar ao Sumário</a></p>
+  <ul>
+    <li><strong>Flutter: </strong> Framework utilizado para desenvolver a interface de usuário da aplicação web.</li>
+    <li><strong>RedCap: </strong> API utilizada para acessar e salvar os dados dos pacientes em um banco de dados seguro.</li>
+    <li><strong>API do RedCap para comunicação com o banco: </strong> API utilizada para acessar e salvar os dados dos pacientes em um banco de dados seguro.</li>
+    <li><strong>Firebase: </strong> Firebase era uma empresa que desenvolvia software backend. Foi fundada em São Francisco em 2011 e incorporada em Delaware. Em 2014, o Firebase foi comprado pelo Google.</li>
+  </ul> 
+</section>
+
 
     <section>
       <h2 id="requisitos">6. Requisitos de Sistema</h2>
@@ -132,7 +132,7 @@ Conexão com a internet</p>
   <pre><code>lib/
 ├── model/                # Modelos de dados (ex: usuário, paciente, entrevista)
 ├── pagesapp/             # Telas da aplicação (interface do usuário)
-├── service/              # Serviços como Firebase, APIs externas e geração de PDF
+├── service/              # Serviços como Firebase, APIs externas
 ├── firebase_options.dart # Configuração do Firebase (gerado automaticamente)
 └── main.dart             # Ponto de entrada da aplicação
   </code></pre>
@@ -151,7 +151,7 @@ Conexão com a internet</p>
     <ul>
       <li>Acesso ao Firebase (Auth e Firestore)</li>
       <li>Comunicação com APIs REST externas</li>
-      <li>Geração de relatórios em PDF</li>
+      
     </ul>
   </p>
 
@@ -186,7 +186,6 @@ Conexão com a internet</p>
       <tr><td>Banco de Dados</td><td>Firebase Firestore</td></tr>
       <tr><td>Banco de Dados</td><td>RedCap</td></tr>
       <tr><td>API REST</td><td>Pacote <code>http</code></td></tr>
-      <tr><td>Geração de PDF</td><td>Pacotes <code>pdf</code> e <code>printing</code></td></tr>
       <tr><td>Modelos de Dados</td><td>Classes Dart no diretório <code>model/</code></td></tr>
     </tbody>
   </table>
